@@ -1,6 +1,7 @@
 # ☕ Estudos e Fundamentos em Java
 
 Criei este repositório dedicado a minha evolução contínua em desenvolvimento de software, guardando os meus exercícios práticos e algoritmos em Java. O objetivo é consolidar a base da lógica de programação e estruturação de código.
+Pode parecer simples, porém! cada degrau que eu subo, mais próximo do TOPO...
 
 ## ✈️ Tecnologias e Ferramentas
 * **Linguagem:** Java
