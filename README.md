@@ -9,11 +9,15 @@ Pode parecer simples, porém! cada degrau que eu subo, mais próximo do TOPO...
 * **Controlo de Versões:** Git e GitHub
 
 ## 🧠 Tópicos Abordados até ao momento
-* Estrutura básica de um programa Java (Classes e Métodos `main`).
-* Declaração de Variáveis e Tipos de Dados (`int`, `double`).
-* Entrada de Dados pelo teclado utilizando a classe `Scanner`.
-* Manipulação de casas decimais e formatação de saída com `Locale` e `printf`.
-* Operadores aritméticos e cálculo de fórmulas matemáticas (Áreas, geometria e regras de negócio simples).
+- Estrutura básica de um programa Java (Classes e Métodos `main`).
+- Declaração de Variáveis e Tipos de Dados (`int`, `double`).
+- Entrada de Dados pelo teclado utilizando a classe `Scanner`.
+- Manipulação de casas decimais e formatação de saída com `Locale` e `printf`.
+- Operadores aritméticos e cálculo de fórmulas matemáticas (Áreas, geometria e regras de negócio simples).
+- Estruturas condicionais (`if` / `else`) para controlo de fluxo e validações.
+- Estruturas de repetição (`for`) para iterações e automação de processos.
+- Lógica com Contadores, Acumuladores e cálculos complexos (Fatoriais, Divisores).
+- Conversão explícita de tipos de dados (*Casting*) e operador de módulo (`%`).
 
 ---
 *Desenvolvido por Hermesson Yuri com foco em Qualidade e boas práticas de código.*
