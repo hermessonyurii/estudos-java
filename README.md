@@ -1,12 +1,12 @@
 # Estudos e Fundamentos em Java ☕
 
-Repositório dedicado à evolução contínua em desenvolvimento de software com **Java**, reunindo exercícios práticos, exemplos conceituais e algoritmos para consolidação da lógica de programação e boas práticas de código.
+Repositório dedicado em minha evolução na programação com **Java**, reunindo exercícios práticos, exemplos conceituais e algoritmos para consolidação da lógica de programação e boas práticas de código.
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
-- **Linguagem:** Java (JDK 17+)
-- **IDE:** Eclipse / VS Code / IntelliJ IDEA
+- **Linguagem:** Java
+- **IDE:** Eclipse / VS Code / IntelliJ
 - **Controle de Versão:** Git & GitHub
 
 ---
@@ -67,4 +67,4 @@ estudos-java/
 
 ---
 
-*Desenvolvido por [Hermesson Yuri](https://github.com/hermessonyurii).*
+*Desenvolvido por [Hermesson Yuri](https://github.com/hermessonyurii) | [Linkedin](https://www.linkedin.com/in/hermesson-yuri/).*
