@@ -20,7 +20,8 @@ estudos-java/
 ├── 01-fundamentos/             # Conceitos básicos e estrutura sequencial
 │   └── src/
 │       ├── Main.java a Main8.java   # Entrada/saída, Locale, Scanner, casting
-│       └── Exercicio1 a 7.java      # Exercícios práticos de fixação
+│       ├── Exercicio1 a 7.java      # Exercícios práticos de fixação
+│       └── aulas_novas/             # Aulas práticas (Main a Main10: tipos, operadores, switch moderno, Scanner, JOptionPane)
 │
 ├── 02-condicionais-e-lacos/    # Controle de fluxo e estruturas de repetição
 │   └── src/
@@ -46,9 +47,12 @@ estudos-java/
 
 - **01 - Fundamentos:**
   - Estrutura básica de um programa Java (método `main`).
-  - Tipos primitivos, declaração de variáveis e *casting*.
-  - Entrada de dados com `Scanner` e formatação com `Locale` / `printf`.
-  - Operadores aritméticos e cálculos matemáticos.
+  - Tipos primitivos (`byte`, `short`, `int`, `float`, `double`, `boolean`), classes *Wrapper* (`Integer`, `Double`, `Byte`, etc.), constantes (`final`) e declaração de variáveis.
+  - Operadores aritméticos (`+`, `-`, `*`, `/`, `%`), relacionais (`<=`, `>=`, etc.) e lógicos (`&&`, `||`).
+  - Estruturas de decisão (`if`, `else if`, `else`) e operador ternário (`? :`).
+  - Estruturas de seleção: `switch-case` tradicional e *Switch Expressions* modernas com sintaxe de seta (`->`).
+  - Entrada de dados pelo console com `Scanner` e padronização com `Locale.US`.
+  - Interfaces gráficas interativas com `JOptionPane` (`showInputDialog`, `showMessageDialog`) e conversão de dados (*parsing* com `Integer.parseInt` e `Double.parseDouble`).
 
 - **02 - Condicionais e Laços:**
   - Estruturas de decisão: `if`, `else if`, `else`, operador ternário `? :` e `switch-case`.
