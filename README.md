@@ -19,9 +19,9 @@ O repositório está organizado por módulos temáticos para facilitar a navega�
 estudos-java/
 ├── 01-fundamentos/             # Conceitos básicos e estrutura sequencial
 │   └── src/
-│       ├── Main.java a Main8.java   # Entrada/saída, Locale, Scanner, casting
+│       ├── programa.Main.java a Main8.java   # Entrada/saída, Locale, Scanner, casting
 │       ├── Exercicio1 a 7.java      # Exercícios práticos de fixação
-│       └── aulas_novas/             # Aulas práticas (Main a Main10: tipos, operadores, switch moderno, Scanner, JOptionPane)
+│       └── aulas_novas/             # Aulas práticas (programa.Main a Main10: tipos, operadores, switch moderno, Scanner, JOptionPane)
 │
 ├── 02-condicionais-e-lacos/    # Controle de fluxo e estruturas de repetição
 │   └── src/
