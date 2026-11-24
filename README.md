@@ -5,8 +5,11 @@ Repositório dedicado em minha evolução na programação com **Java**, reunind
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
-- **Linguagem:** Java
-- **IDE:** Eclipse / VS Code / IntelliJ
+- **Linguagem:** Java (JDK 21)
+- **Framework & Libs:** Spring Boot, Spring Data JPA, Hibernate, Flyway
+- **Banco de Dados:** PostgreSQL
+- **Testes de API:** Insomnia
+- **IDE:** IntelliJ IDEA / Eclipse / VS Code
 - **Controle de Versão:** Git & GitHub
 
 ---
@@ -35,10 +38,23 @@ estudos-java/
 │       ├── retangulo/               # Classes, atributos, métodos e cálculo de área/perímetro
 │       └── triangulo/               # Exercício de comparação de áreas com classes
 │
-└── 04-arrays-e-vetores/        # Estruturas de dados (Vetores e Coleções)
+├── 04-arrays-e-vetores/        # Estruturas de dados (Vetores e Coleções)
+│   └── src/
+│       ├── application/             # Programas com vetores de primitivos e vetores de objetos
+│       └── entities/                # Entidade Product
+│
+└── 05-spring-boot-crud/        # API RESTful com Spring Boot e PostgreSQL
+    ├── pom.xml                 # Gerenciamento de dependências e plugins Maven
+    ├── mvnw / mvnw.cmd         # Maven Wrapper
     └── src/
-        ├── application/             # Programas com vetores de primitivos e vetores de objetos
-        └── entities/                # Entidade Product
+        ├── main/java/com/hermessonaula/crud/
+        │   ├── CrudApplication.java        # Inicialização Spring Boot
+        │   ├── controllers/                # Endpoints REST (ProductController)
+        │   ├── model/                      # Entidades mapeadas no banco (Product)
+        │   └── repositories/               # Acesso a dados com Spring Data JPA (ProductRepository)
+        └── main/resources/
+            ├── application.properties      # Configurações do Spring e DataSource
+            └── db/migration/               # Migrações versionadas com Flyway
 ```
 
 ---
@@ -68,6 +84,15 @@ estudos-java/
   - Vetores para tipos primitivos (`double[]`).
   - Vetores de objetos (`Product[]`).
   - Manipulação de dados e cálculos com arrays.
+
+- **05 - Spring Boot & API REST (CRUD):**
+  - Configuração e estruturação de microsserviço/API com Spring Boot 3+.
+  - Criação de endpoints RESTful utilizando `@RestController`, `@RequestMapping` e `@GetMapping`.
+  - Mapeamento objeto-relacional (ORM) com Jakarta Persistence / Hibernate (`@Entity`, `@Table`, `@Id`, `@GeneratedValue`).
+  - Camada de persistência simplificada com Spring Data JPA (`JpaRepository`).
+  - Conexão e integração com banco de dados relacional **PostgreSQL**.
+  - Versionamento de esquema de banco de dados com **Flyway**.
+  - **Segurança de credenciais:** Uso de variáveis de ambiente (`${DB_PASSWORD}`) e importação opcional de `application-local.properties` (ignorado no Git via `.gitignore`), garantindo que senhas locais nunca sejam versionadas publicamente.
 
 ---
 

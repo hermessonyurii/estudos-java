@@ -6,3 +6,9 @@ bin/
 .idea/
 *.iml
 out/
+
+# Sensitive and local configuration
+**/application-local.properties
+*.env
+target/
+.mvn/wrapper/maven-wrapper.jar
